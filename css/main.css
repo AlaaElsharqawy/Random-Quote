@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  margin-block: 1.875rem;
+  font-weight: 700;
+  font-size: 5rem;
+  color: black;
+}
+p {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+button {
+  margin-block: 3.125rem;
+  padding-inline: 3.125rem;
+  padding-block: 1.5625rem;
+  background-color: blue;
+  font-size: 1.25rem;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: #09c;
+}
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-weight: 700;
+    font-size: 4.375rem;
+  }
+  p {
+    font-weight: 600;
+    font-size: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-weight: 500;
+    font-size: 3.75rem;
+  }
+  p {
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+
+  button {
+    margin-block: 1.875rem;
+    padding-inline: 2.5rem;
+    padding-block: 1.25rem;
+
+    font-size: 0.9375rem;
+  }
+}
